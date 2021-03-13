@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <TextView
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Topic 1 needs two devices to test, one for  audio custom capture, one for audio custom render."
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </TextView>
+<Button
+    android:id="@+id/capture"
+    android:text="@string/audio_custom_capture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></Button>
+
+    <Button
+        android:id="@+id/render"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="@string/audio_custom_render"></Button>
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Topic 2 needs two devices to test callback, one for captured audio callback, one for received audio callback."
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/capturedAudioData"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/captured_audio_data"></Button>
+
+    <Button
+        android:id="@+id/ReceivedAudioData"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/received_audio_data"></Button>
+
+</LinearLayout>
